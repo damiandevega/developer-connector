@@ -138,9 +138,9 @@ class CreateProfile extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 m-auto">
-                            <h1 className="dispaly-4 text-center">Create Your Profile</h1>
-                            <p className="lead text-center">Let's get some information to make your profile stand out.</p>
-                            <small className="d-block pb-3">* = required fields</small>
+                            <h1 className="dispaly-4 text-center text-white">Create Your Profile</h1>
+                            <p className="lead text-center text-white">Let's get some information to make your profile stand out.</p>
+                            <small className="d-block pb-3 text-white">* = required fields</small>
                             <form onSubmit={this.onSubmit}>
 
                                 <TextFieldGroup
@@ -230,7 +230,7 @@ class CreateProfile extends Component {
                                     <span className="text-white"> Optional</span>
                                 </div>
                                 {socialInputs}
-                                <input type="submit" value="Submit" className="btn btn-info btn-block mt-4" />
+                                <input type="submit" value="Submit" className="btn btn-secondary btn-block mt-4" />
                             </form>
                         </div>
                     </div>
