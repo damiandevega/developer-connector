@@ -180,11 +180,11 @@ class EditProfile extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 m-auto">
-                            <Link to="/dashboard" className="btn btn-light">
+                            <Link to="/dashboard" className="btn btn-secondary">
                                 Go Back
                             </Link>
-                            <h1 className="dispaly-4 text-center">Edit Profile</h1>
-                            <small className="d-block pb-3">* = required fields</small>
+                            <h1 className="dispaly-4 text-center text-white">Edit Profile</h1>
+                            <small className="d-block pb-3 text-white">* = required fields</small>
                             <form onSubmit={this.onSubmit}>
 
                                 <TextFieldGroup
@@ -271,10 +271,10 @@ class EditProfile extends Component {
                                         className="btn btn-light">
                                             Add Social Network Links
                                     </button>
-                                    <span className="text-muted"> Optional</span>
+                                    <span className="text-white"> Optional</span>
                                 </div>
                                 {socialInputs}
-                                <input type="submit" value="Submit" className="btn btn-info btn-block mt-4" />
+                                <input type="submit" value="Submit" className="btn btn-secondary btn-block mt-4" />
                             </form>
                         </div>
                     </div>

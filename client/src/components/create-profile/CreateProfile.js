@@ -227,7 +227,7 @@ class CreateProfile extends Component {
                                         className="btn btn-light">
                                             Add Social Network Links
                                     </button>
-                                    <span className="text-muted"> Optional</span>
+                                    <span className="text-white"> Optional</span>
                                 </div>
                                 {socialInputs}
                                 <input type="submit" value="Submit" className="btn btn-info btn-block mt-4" />

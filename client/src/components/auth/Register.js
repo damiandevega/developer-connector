@@ -55,8 +55,8 @@ class Register extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-8 m-auto">
-                <h1 className="display-4 text-center">Sign up</h1>
-                <p className="lead text-center">Create your Developer Connector account</p>
+                <h1 className="display-4 text-center text-white">Sign up</h1>
+                <p className="lead text-center text-white">Create your Developer Connector account</p>
                 <form noValidate onSubmit={this.onSubmit}>
 
                 <TextFieldGroup
@@ -97,7 +97,7 @@ class Register extends Component {
 
                   <input
                     type="submit"
-                    className="btn btn-info btn-block mt-4"
+                    className="btn btn-secondary btn-block mt-4"
                   />
                 </form>
               </div>
